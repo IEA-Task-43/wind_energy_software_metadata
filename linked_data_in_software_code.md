@@ -176,7 +176,7 @@ WindVector = Annotated[
 
 def get_wind_vector(
     wind_speed: WindSpeed,
-    wind_from_direction: WindSpeed,
+    wind_from_direction: WindFromDirection,
 ) -> WindVector:
     return (
         wind_speed * math.sin(math.radians(wind_from_direction)),
