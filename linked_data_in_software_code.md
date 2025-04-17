@@ -165,7 +165,7 @@ WindSpeed = Annotated[
 
 WindFromDirection = Annotated[
     float,
-    TypeContext(uri="https://wind-measurement-ontology.foo/terms/wind_speed"),
+    TypeContext(uri="https://wind-measurement-ontology.foo/terms/wind_from_direction"),
 ]
 
 WindVector = Annotated[
